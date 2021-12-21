@@ -1,0 +1,11 @@
+// ORDEN ASCENDENTE
+
+Collections.sort(NombreLista, 
+(ClaseAtributos objeto1, ClaseAtributos objeto2) -> objeto1.getAtriutoPaComparar().compareTo(objeto2.getAtriutoPaComparar()));    
+     
+
+// ORDEN DESCENDENTE
+
+
+Collections.sort(NombreLista,
+ (ClaseAtributos objeto1, ClaseAtributos objeto2) -> objeto2.getAtriutoPaComparar).compareTo(objeto1.getAtriutoPaComparar()));    
